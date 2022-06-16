@@ -63,11 +63,13 @@ header {
 }
 
 .cart {
+  overflow: auto;
   position: fixed;
   top: 0;
   right: -100%;
-  width: 360px;
+  width: 350px;
   min-height: 100vh;
+  max-height: 100%;
   padding: 20px;
   background: var(--bg-color);
   box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
