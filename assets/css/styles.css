@@ -14,6 +14,8 @@
   --main-color: #fd4646;
   --text-color: #171427;
   --bg-color: #fff;
+  --secound-bg-color: #191919;
+  --secound-color: #c6c9d8bf;
 }
 
 img {
@@ -42,6 +44,7 @@ header {
   background: var(--bg-color);
   box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
   z-index: 100;
+  background: var(--secound-bg-color);
 }
 
 .nav {
@@ -53,13 +56,14 @@ header {
 
 .logo {
   font-size: 1.1rem;
-  color: var(--text-color);
+  color: var(--secound-color);
   font-weight: 400;
 }
 
 #cart-icon {
   font-size: 1.8rem;
   cursor: pointer;
+  color: var(--secound-color);
 }
 
 .cart {
@@ -230,6 +234,19 @@ header {
 
 .add-cart:hover {
   background: hsl(249, 32%, 17%);
+}
+
+.fotter {
+  text-align: center;
+  background: var(--secound-bg-color);
+  padding: 34px;
+  z-index: 999;
+}
+
+.fotter p {
+  font-size: 17px;
+  color: var(--secound-color);
+  letter-spacing: 1px;
 }
 
 @media (max-width: 1080px) {
